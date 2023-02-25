@@ -1,51 +1,64 @@
+import {
+  elephant,
+  giraffe,
+  hippo,
+  kangaroo,
+  koala,
+  lion,
+  panda,
+  penguin,
+  polar,
+  sloth,
+} from "./assets/img/index.js";
+
 const fakeData = [
   {
-    imageUrl: "https://picsum.photos/300/200?random=1",
+    imageUrl: elephant,
     description: "African Elephant",
     isMatch: true,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=2",
+    imageUrl: giraffe,
     description: "Giraffe",
     isMatch: false,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=3",
+    imageUrl: lion,
     description: "Lion",
     isMatch: false,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=4",
+    imageUrl: panda,
     description: "Panda",
     isMatch: true,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=5",
+    imageUrl: kangaroo,
     description: "Kangaroo",
     isMatch: true,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=6",
+    imageUrl: penguin,
     description: "Penguin",
     isMatch: false,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=7",
+    imageUrl: hippo,
     description: "Hippopotamus",
     isMatch: false,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=8",
+    imageUrl: sloth,
     description: "Sloth",
     isMatch: true,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=9",
+    imageUrl: koala,
     description: "Koala",
     isMatch: false,
   },
   {
-    imageUrl: "https://picsum.photos/300/200?random=10",
+    imageUrl: polar,
     description: "Polar Bear",
     isMatch: true,
   },

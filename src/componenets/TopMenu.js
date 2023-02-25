@@ -2,7 +2,7 @@ import React from "react";
 
 const TopMenu = ({ correct, incorrect }) => {
   return (
-    <div>
+    <div className="top-menu">
       <p>Correct:{correct}</p>
       <p>Incorrect:{incorrect}</p>
     </div>

@@ -36,14 +36,16 @@ const Card = () => {
   }
 
   return (
-    <div>
+    <div className="app">
       <TopMenu correct={correct} incorrect={incorrect} />
       {gameOver ? (
         <h2>Game Over</h2>
       ) : (
-        <div>
-          <img src={fakeData[index].imageUrl} alt="animal" />
-          <p>{fakeData[index].description}</p>
+        <div className="card">
+          <div className="img-wrap">
+            <img src={fakeData[index].imageUrl} alt="animal" />
+          </div>
+          <h2>{fakeData[index].description}</h2>
         </div>
       )}
       <BottomMenu clickTrue={clickTrue} clickFalse={clickFalse} />
